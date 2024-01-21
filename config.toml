@@ -21,6 +21,10 @@ taxonomies = [
 highlight_code = true
 
 [extra]
+stylesheets = [
+  "style.css"
+]
+
 # Put all your custom variables here
 primary_color = "#ff7800"
 primary_color_alpha = "rgba(255, 120, 0, 0.2)"
