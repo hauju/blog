@@ -1,0 +1,36 @@
+<footer class="footer">
+    {% if config.extra.footer.show_copyright %}
+      <p title="Last built at {{ now() | date(format='%F %R %Z') }}">&copy; {{ config.title }}, {{ now() | date(format="%Y") }}</p>
+    {% endif %}
+  
+    {% if config.extra.footer.show_source %}
+      <p><a href="{{ config.extra.source_url }}">Website source</a></p>
+    {% endif %}
+  
+    {% if config.extra.footer.show_powered_by %}
+      <p><small>Powered by <a href="https://www.getzola.org">Zola</a> and <a href="https://daudix.codeberg.page/duckquill">Duckquill</a></small></p>
+    {% endif %}
+  
+    {% if config.extra.footer.show_johnvert %}
+      <small>
+        <details><summary>Johnvertisement</summary>
+          <iframe class="johnvertisement" title="Johnvertisement" src="https://john.citrons.xyz/embed?ref={{ config.extra.footer.johnvert_ref }}"></iframe>
+        </details>
+      </small>
+    {% endif %}
+
+    {% if config.extra.footer and config.extra.footer.links %}
+        {% for link in config.extra.footer.links %}
+        <a href="{{ link.url | safe | replace(from='$BASE_URL', to=get_url(path='')) | safe }}">
+        {% if config.extra.footer.icons %}
+            {% if link.icon %}
+            <i class="bi bi-{{ link.icon }}"></i>
+            {% endif %}
+        {% endif %}
+        {{ link.name }}
+        </a>
+        <br>
+        {% endfor %}
+      {% endif %}
+  </footer>
+  
