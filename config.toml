@@ -42,7 +42,7 @@ icons = true
 # Links used in the nav; any icon from https://icons.getbootstrap.com
 # can be used as the icon. The bi- prefix should not be added.
 links = [
-  {url = "$BASE_URL/blog", name = "Blog", icon = "journal-bookmark"},
+  {url = "/blog", name = "Blog", icon = "journal-bookmark"},
   {url = "https://github.com/hauju", name = "Github", icon = "code-slash"},
 ]
 
@@ -50,7 +50,7 @@ links = [
 # "© Title, YEAR" in the footer
 show_copyright = true
 links = [
-  {url = "$BASE_URL/legal-notice", name = "Legal Notice", icon = "paragraph"},
-  {url = "$BASE_URL/privacy-policy", name = "Privacy Policy", icon = "shield"},
+  {url = "/legal-notice", name = "Legal Notice", icon = "paragraph"},
+  {url = "/privacy-policy", name = "Privacy Policy", icon = "shield"},
 ]
 icons = true
