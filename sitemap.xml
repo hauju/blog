@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.oxidt.com/</loc>
+    </url>
+    <url>
+        <loc>https://www.oxidt.com/blog/</loc>
+    </url>
+    <url>
+        <loc>https://www.oxidt.com/blog/hello-world/</loc>
+        <lastmod>2020-08-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.oxidt.com/demo/</loc>
+    </url>
+    <url>
+        <loc>https://www.oxidt.com/legal-notice/</loc>
+    </url>
+    <url>
+        <loc>https://www.oxidt.com/privacy-policy/</loc>
+    </url>
+    <url>
+        <loc>https://www.oxidt.com/tags/</loc>
+    </url>
+    <url>
+        <loc>https://www.oxidt.com/tags/general/</loc>
+    </url>
+</urlset>

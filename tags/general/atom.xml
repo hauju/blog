@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Oxidt - general</title>
+    <link href="https://www.oxidt.com/tags/general/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://www.oxidt.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2020-08-01T00:00:00+00:00</updated>
+    <id>https://www.oxidt.com/tags/general/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Hello World</title>
+        <published>2020-08-01T00:00:00+00:00</published>
+        <updated>2020-08-01T00:00:00+00:00</updated>
+        <author>
+          <name>Hauke Jung</name>
+        </author>
+        <link rel="alternate" href="https://www.oxidt.com/blog/hello-world/" type="text/html"/>
+        <id>https://www.oxidt.com/blog/hello-world/</id>
+        
+        <content type="html">&lt;h2 id=&quot;the-what&quot;&gt;The what?&lt;&#x2F;h2&gt;
+&lt;p&gt;As a developer, I&#x27;ve always sought effective ways to organize my insights and new learnings in technology. The idea of creating a central hub where I can document and share my journey and findings kept growing on me. That&#x27;s why I decided to launch this blog. It&#x27;s not just a platform for me to archive my knowledge, but also a space where fellow developers can explore and maybe find inspiration or solutions.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-how&quot;&gt;The how?&lt;&#x2F;h2&gt;
+&lt;p&gt;After spending weeks reviewing different frameworks, I settled on using the static site generator &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt; and decided to host the blog on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hauju&quot;&gt;Github&lt;&#x2F;a&gt; Pages. This setup has some great perks:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simplicity in Hosting: Setting up and maintaining the blog became a breeze, removing the usual complexities associated with web hosting.&lt;&#x2F;li&gt;
+&lt;li&gt;Cost-Effectiveness: The entire setup is free, which is perfect for developers looking to showcase their work without incurring additional costs.&lt;&#x2F;li&gt;
+&lt;li&gt;Familiar Writing Process: Zola&#x27;s support for markdown meant I could write and format my posts in a way that&#x27;s second nature to me, streamlining content creation.&lt;&#x2F;li&gt;
+&lt;li&gt;Version Control with Git: Integrating my blog with Git through Github Pages made version control and content updates straightforward, ensuring that my work is always backed up and easily manageable.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;welcome-to&quot;&gt;Welcome to&lt;&#x2F;h2&gt;
+&lt;div class=&quot;crt scanlines&quot;&gt;
+  &lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt; __         __  ___ 
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;  \ \_&#x2F; | |  \  |  
+&lt;&#x2F;span&gt;&lt;span&gt;\__&#x2F; &#x2F; \ | |__&#x2F;  |  
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+</feed>
