@@ -23,12 +23,3 @@ After spending weeks reviewing different frameworks, I settled on using the stat
 - Familiar Writing Process: Zola's support for markdown meant I could write and format my posts in a way that's second nature to me, streamlining content creation.
 - Version Control with Git: Integrating my blog with Git through Github Pages made version control and content updates straightforward, ensuring that my work is always backed up and easily manageable.
 
-## Welcome to
-
-{% crt() %}
-```
- __         __  ___ 
-/  \ \_/ | |  \  |  
-\__/ / \ | |__/  |  
-```
-{% end %}

@@ -11,9 +11,7 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-taxonomies = [
-  {name = "tags", feed = true},
-]
+taxonomies = [{ name = "tags", feed = true }]
 
 [markdown]
 # Whether to do syntax highlighting
@@ -26,8 +24,10 @@ highlight_code = true
 # ]
 
 # Put all your custom variables here
-primary_color = "#ff7800"
-primary_color_alpha = "rgba(255, 120, 0, 0.2)"
+accent_color = "#ffa348"
+accent_color_dark = "#ffa348"
+accent_color_alpha = "rgba(255, 120, 0, 0.2)"
+
 
 # URL to issue tracker
 issues_url = "https://github.com/hauju/blog/issues"
@@ -37,20 +37,22 @@ date_format = "%d %B %Y"
 [extra.nav]
 # Display Atom/RSS feed button in the nav
 show_feed = false
+# Whether to show the manual theme switcher in the nav
+show_theme_switcher = false
 # Whether to use icons in the nav
 icons = true
 # Links used in the nav; any icon from https://icons.getbootstrap.com
 # can be used as the icon. The bi- prefix should not be added.
 links = [
-  {url = "/blog", name = "Blog", icon = "journal-bookmark"},
-  {url = "https://github.com/hauju", name = "Github", icon = "code-slash"},
+  { url = "/blog", name = "Blog", icon = "journal-bookmark" },
+  { url = "https://github.com/hauju", name = "Github", icon = "code-slash" },
 ]
 
 [extra.footer]
 # "© Title, YEAR" in the footer
 show_copyright = true
 links = [
-  {url = "/legal-notice", name = "Legal Notice", icon = "paragraph"},
-  {url = "/privacy-policy", name = "Privacy Policy", icon = "shield"},
+  { url = "/legal-notice", name = "Legal Notice", icon = "paragraph" },
+  { url = "/privacy-policy", name = "Privacy Policy", icon = "shield" },
 ]
 icons = true
